@@ -11,6 +11,7 @@ public class PingController {
     public String ping(@PathVariable String param) {
         System.out.println("some new feature from other member");
         // some-new-feature by me
+        // other commit
         return "Response is: (" + param + ")";
     }
 
