@@ -10,6 +10,7 @@ public class PingController {
     @GetMapping("/ping/{param}")
     public String ping(@PathVariable String param) {
         System.out.println("some new feature from other member");
+        // some-new-feature by me
         return "Response is: (" + param + ")";
     }
 
